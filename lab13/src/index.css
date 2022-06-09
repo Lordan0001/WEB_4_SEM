@@ -1,0 +1,420 @@
+* {
+  margin: 2px;
+  padding: 0;
+  font-family: "Segoe UI Light", fantasy;
+  background: #343333;
+  color: #ffffff;
+}
+/* body{
+  background : #000;
+  color: white;
+} */
+
+.one_good {
+  display: block;
+  margin: 30px 100px;
+  padding: 0;
+}
+
+.block {
+  display: flex;
+}
+
+.one_good img {
+  height: 200px;
+  width: 160px;
+  margin-right: 10px;
+}
+
+.sorts {
+  margin: 20px 0px 10px 480px;
+  display: flex;
+}
+
+.sorts button {
+  background: #000000;
+
+  border: 1px solid transparent;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  padding: 15px 32px;
+  margin-top: 10px;
+  margin-right: 10px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s;
+
+  cursor: pointer;
+}
+
+.sorts button:hover {
+  cursor: pointer;
+  background-color: #454748
+}
+
+.discount h2 {
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  background-color: rgb(245, 58, 58);
+  text-align: center;
+}
+
+.discount h2 + h2 {
+  margin: 7px;
+}
+
+.prices {
+  display: flex;
+}
+
+.prices h3 {
+  color: rgb(83, 83, 83);
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  border: 1px solid;
+  width: 158px;
+  margin-top: 3px;
+  margin-left: 30px;
+}
+
+.phoneInput img {
+  height: 10px;
+  width: 20px;
+  margin-bottom: -3px
+}
+
+.phoneInput li img {
+  margin: 0px 3px;
+}
+
+.numberField img, .numberField input{
+  display: inline;
+}
+
+input {
+  padding: 2px 0 2px 6px;
+}
+
+input, select {
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+
+.rrr {
+  display: flex;
+  flex-direction: row;
+}
+
+text {
+  padding-top: 2px;
+}
+
+.progress_bar_bg{
+  background: #fff;
+  width: 200px;
+  height: 5px;
+  margin-top: 7px;
+  margin-bottom: 2px;
+  border: 1px solid #000;
+}
+
+.progress_bar {
+  background: darkslategray;
+  height: 100%;
+  margin-top: 0;
+}
+
+.date {
+  display: flex;
+  width: 20px;
+  margin: 0;
+}
+
+.radios {
+  display: flex;
+}
+
+.radi {
+  width: 20px;
+  cursor: pointer;
+}
+
+.radiooo {
+  width: 20px;
+  cursor: pointer;
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  margin-bottom: 20px;
+}
+
+.send {
+  width: 50px;
+  height: 30px;
+  background: #ADB5D3;
+}
+
+.form {
+  margin-left: 600px;
+}
+
+.operator {
+  width:60px;
+}
+
+.cart {
+  width: 100px;
+  height: 30px;
+  background: #000000;
+  opacity: 50%;
+}
+
+.cart:hover{
+  background-color: #3b3a3a;
+}
+
+.send, .cart {
+  border: 1px solid transparent;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s;
+
+  cursor: pointer;
+
+  margin-bottom: 30px;
+}
+
+
+#portal {
+  position: relative;
+  z-index: 999;
+}
+.overlay {
+  background-color: rgba(0,0,0,0.7);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  height: 250px;
+  width: 400px;
+  border-radius: 30px;
+  background: #303030;
+  padding: 20px;
+}
+
+.modal button {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+.modal button:hover {
+  cursor: pointer;
+}
+
+.to_order {
+  background-color:black;
+}
+
+.to_order:hover {
+  background-color: #323232;
+}
+
+.to_catalog {
+  background-color: #000000;
+}
+
+.to_catalog:hover {
+  background-color: #3015c5;
+}
+
+.sign_in input {
+  display: block
+}
+
+ul {
+  border: none;
+}
+
+.numberOfGoods {
+  height: 20px;
+}
+
+li {
+  font-size: 16px;
+  list-style: none;
+}
+
+.fieldImg {
+  vertical-align: middle;
+  cursor: pointer;
+  height: 20px;
+  width: 26px;
+  margin: 0 0 0 2px;
+}
+
+.listImg {
+  vertical-align: middle;
+  margin: 0 6px 0 0;
+  height: 20px;
+  width: 26px;
+  margin: -5px 6px 0 0;
+}
+
+#labelNumField {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.radioLine {
+  margin: 0 5px 6px 0;
+}
+
+#radioLine2 {
+  margin-left: 25px;
+}
+
+input {
+  padding: 2px 0 2px 6px;
+}
+
+input, select {
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  background: transparent;
+}
+
+.line {
+  display: flex;
+}
+
+button {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+select {
+  margin-top: 10px;
+}
+
+select, form, input {
+  font-family: 'Segoe UI Light', fantasy;
+}
+
+form {
+  padding: 3% 0 0 41%;
+}
+
+input {
+  margin: 15px 10px 0 -20px;
+}
+
+.notMatch {
+  font-weight: 600;
+  font-size: 14px;
+  color: red;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.new {
+  padding: 5px;
+}
+
+.puk {
+  background: #ADB5D3;
+
+  border: 1px solid transparent;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+  padding: 15px 32px;
+  margin-top: 10px;
+  margin-right: 10px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s;
+
+  cursor: pointer;
+}
+
+.puk:hover{
+  cursor: pointer;
+  background-color: #008CBA
+}
+
+td {
+  font-size: 18px;
+}
+
+.good_in_cart{
+  margin-left: 25px;
+  display: block;
+}
+
+.nm, .pr {
+  margin-left: -15px;
+}
+
+.check{
+  margin-left: 5px;
+}
+
+.jest{
+  display: table-cell;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
+.mm{
+  display: block;
+}
+
+.address{
+  margin-top: 10px;
+
+}
+
+.list{
+  margin-left: -25px;
+  width: 250px;
+}

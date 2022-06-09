@@ -1,0 +1,81 @@
+.noteBtn {
+    margin: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    border: 2px solid #c8d818;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);    
+    width: 150px;
+    background: rgba(161, 173, 33, 0.966)
+}
+
+.notes_container {
+    border: 3px solid #ad2922;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 100px 100px 100px;
+    background: rgba(111, 197, 108, 0.17);
+    font-family: 'Roboto', sans-serif;
+}
+
+.noteForm {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans serif;
+    background: rgba(255, 235, 19, 0.907);
+    width: 700px;
+    margin: auto;
+    padding: 10px 0 30px 0;
+    border-radius: 5px;
+}
+
+.noteItem {
+    border: 2px solid rgb(230, 194, 16);
+    margin: 5px;
+    background: rgba(255, 224, 69, 0.996);
+    word-wrap: break-word;
+}
+
+.noteItemRed {
+    border: 2px solid rgb(29, 37, 152);
+    margin: 5px;
+    background: rgb(255, 242, 0);
+}
+
+.textNote {
+    font-size: 25px;
+    white-space: pre;
+}
+
+.titleNote {
+    font-size: 35px;
+    color: rgba(12, 12, 12, 0.82);
+    white-space: pre;
+}
+
+.input {
+    font-size: 25px;
+    border: 2px solid #e2d812;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    margin: 3px auto;
+}
+
+.noteInput {
+    font-size: 25px;
+    border: 2px solid #f0f722;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    width: 600px;
+    margin: 3px auto;
+}
+
+.noteItemBtn {
+    margin: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid #d2e00f;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+}

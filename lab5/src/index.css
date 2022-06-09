@@ -1,0 +1,65 @@
+input {
+    display: block;
+    font-family: "Segoe UI Light";
+}
+
+.radiob{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.progress_bar_bg{
+    background: #fff;
+    width: 175px;
+    height: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid #000;
+}
+.progress_bar {
+    background: darkslategray;
+    height: 100%;
+    margin: 0;
+}
+
+form{
+    margin-top: 150px;
+    margin-left: 600px;
+}
+
+body{
+    background: rgb(54, 21, 199);
+    font-family: "Segoe UI Light";
+}
+
+.input_num{
+    margin-left: 3px;
+}
+
+.date{
+    margin-top: -15px;
+    width: 50px;
+}
+
+select{
+    font-family: "Segoe UI Light";
+}
+
+.inputs{
+    width: 170px;
+}
+
+h1{
+    margin-left: 30px;
+}
+
+button{
+    margin-top: 10px;
+    margin-left: 70px;
+    font-family: "Segoe UI Light";
+}
+
+.sit{
+    width: 100px;
+    height: 100px;
+}

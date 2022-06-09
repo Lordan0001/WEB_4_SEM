@@ -1,0 +1,55 @@
+.productsTable {
+    margin: 10px auto;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: #fafafa;
+}
+
+.productsTable td {
+    padding: 10px 0;
+}
+
+.productsTable input {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    color: #0a0a0a;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.4s;
+}
+
+.productsTable input:hover {
+    background: #bb2424;
+}
+
+.productsTable input:active {
+    background: #000000;
+}
+
+.medium {
+    border: 2px solid rgb(0, 0, 0);
+    background: #f9e802;
+    border-radius: 1px;
+}
+
+.low {
+    border: 2px solid rgb(7, 7, 7);
+    background: #eb0707;
+    border-radius: 1px;
+}
+
+.normal {
+    border: 2px solid #050505;
+    background: #ffffff;
+    border-radius: 1px;
+}

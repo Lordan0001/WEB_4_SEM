@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 64px;
+}
+
+.catalogContainer {
+    margin: 50px auto;
+    padding: 1px;
+    background: rgb(7, 7, 7);
+    border-radius: 7px;
+    width: 60%;
+}
+
+.catalogSorts {
+    padding: 10px;
+}
+
+.catalogSorts input {
+    width: 25%;
+    height: 30px;
+    color: #171717;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.4s;
+}
+
+.catalogSorts input:hover {
+    background: #000000;
+}
+
+.catalogItem {
+    background: #ffffff;
+    margin: 10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+
+.discount, .new {
+    background: rgba(143, 20, 20, 0.87);
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
